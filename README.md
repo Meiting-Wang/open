@@ -5,7 +5,7 @@
 
 ## 一、引言
 
-该命令能打开任意指定的路径或文件，以及还能用指定的应用程序打开指定的文件，所以在一定程度上算是`shellout`或`cdout`命令的加强版。此外，我们还设置了 **stata**、**base**、**plus** 和 **personal** 关键字，以此代表 Stata 中的系列系统路径。也就是说，我们可以直接使用`open stata`打开当前 Stata 的安装路径、使用`open plus`打开当前 Stata 的 plus 路径等等。
+该命令能打开任意指定的路径或文件，以及还能用指定的应用程序打开指定的文件，为`shellout`或`cdout`命令的加强版。此外，我们还设置了 **stata**、**base**、**plus** 和 **personal** 关键字，以此代表 Stata 中的系列系统路径。也就是说，我们可以直接使用`open stata`打开当前 Stata 的安装路径、使用`open plus`打开当前 Stata 的 plus 路径等等。
 
 由于`open`调用了 cmd 中的命令，所以该命令仅能使用于在 windows 系统上安装的 Stata。另外，对于本身 Stata 的版本而言，该命令仅能使用于 16.0 及以上版本的 Stata 软件中。
 
