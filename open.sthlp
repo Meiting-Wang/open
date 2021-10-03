@@ -43,6 +43,9 @@ Use the specified application to open the specified file
 {cmd:open} can open any specified directory or file, and can use the specified application to open the specified file. If the directory name or file name contains spaces, double quotation marks are required.
 
 {p 4 4 2}
+If no parameters are entered, the current directory is opened by default(click {stata open} to see the effect).
+
+{p 4 4 2}
 In addition, we use {bf:stata}, {bf:base}, {bf:plus}, and {bf:personal} keywords to represent Stata's series system directories. Namely, for instance, you can use {stata open stata} to open Stata's installation directory.
 
 {p 4 4 2}
@@ -60,6 +63,7 @@ It is worth noting that this command can only be used in version 16.0 or later.
 {p 8 10 2}. {stata open base}{p_end}
 {p 8 10 2}. {stata open plus}{p_end}
 {p 8 10 2}. {stata open personal}{p_end}
+{p 8 10 2}. {stata open}{p_end}
 {p 8 10 2}. {stata open .}{p_end}
 {p 8 10 2}. {stata open ..}{p_end}
 {p 8 10 2}. {bf:open subdir}{p_end}

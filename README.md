@@ -9,6 +9,8 @@
 
 由于`open`调用了 cmd 中的命令，所以该命令仅能使用于在 windows 系统上安装的 Stata。另外，对于本身 Stata 的版本而言，该命令仅能使用于 16.0 及以上版本的 Stata 软件中。
 
+> 如果 `open` 没有输入任何参数，则默认打开当前目录。
+
 ## 二、命令的安装
 
 `open`及本人其他命令的代码都托管于 GitHub 上，读者可随时下载安装这些命令。
@@ -60,6 +62,7 @@ open stata //打开 Stata 的安装目录
 open base //打开 Stata 中的 base 文件夹
 open plus //打开 Stata 中的 plus 文件夹
 open personal //打开 Stata 中的 personal 文件夹
+open //默认打开当前文件夹
 open . //打开当前文件夹
 open subdir //打开当前文件夹的 subdir 子文件夹
 open .. //打开上一层文件夹
@@ -79,6 +82,6 @@ open "D:\softinstall\SumatraPDF\SumatraPDF.exe" ".\subdir\PS2_WMT.pdf"
 
 > 以上所有实例都可以在`help open`中找到。
 >
-> ![](https://cdn.jsdelivr.net/gh/Meiting-Wang/pictures/picgo/picgo-20210930191918.png)
+> ![](https://cdn.jsdelivr.net/gh/Meiting-Wang/pictures/picgo/picgo-20211003172155.png)
 
 > 点击【阅读原文】可进入该命令的 github 项目。

@@ -6,6 +6,7 @@ open stata //打开 Stata 的安装目录
 open base //打开 Stata 中的 base 文件夹
 open plus //打开 Stata 中的 plus 文件夹
 open personal //打开 Stata 中的 personal 文件夹
+open //默认打开当前文件夹
 open . //打开当前文件夹
 open subdir //打开当前文件夹的 subdir 子文件夹
 open .. //打开上一层文件夹
