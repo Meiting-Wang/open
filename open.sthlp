@@ -1,5 +1,6 @@
 {smcl}
-{right:Updated time: Sep 30, 2021}
+{right:Created time: Sep 30, 2021}
+{right:Updated time: Oct  9, 2021}
 {* -----------------------------title------------------------------------ *}{...}
 {p 0 14 2}
 {bf:[W-19] open} {hline 2} Open everything. You can view the source code in {browse "https://github.com/Meiting-Wang/open":github}.
