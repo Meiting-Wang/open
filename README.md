@@ -1,9 +1,11 @@
-# Stata 新命令：open--open everything
+# Stata 命令 open 的更新——open everything
 
 > 作者：王美庭  
 > Email: wangmeiting92@gmail.com
 
 ## 一、引言
+
+基于命令使用的方便，我们增加了在不输入任何参数下默认打开当前路径的功能（即键入`open`即可打开当前目录）。同时我也更新了本文档（旧文档 [参见Stata 新命令：open--open everything](https://mp.weixin.qq.com/s/IdaTRmNS9itNinM7A3giIA)），详情如下：
 
 该命令能打开任意指定的路径或文件，以及还能用指定的应用程序打开指定的文件，为`shellout`或`cdout`命令的加强版。此外，我们还设置了 **stata**、**base**、**plus** 和 **personal** 关键字，以此代表 Stata 中的系列系统路径。也就是说，我们可以直接使用`open stata`打开当前 Stata 的安装路径、使用`open plus`打开当前 Stata 的 plus 路径等等。
 
